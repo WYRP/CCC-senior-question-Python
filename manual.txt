@@ -1,0 +1,28 @@
+Mini Manual:
+
+This is a program used to solve a Tourism problem. 
+
+In the context of the Tourism, the travellers need to plan a travel schdule that allow them to finish travelling all of the planned attractions in the fewist day but getting a highest score. A score is given to each attraction. We can understand these scores as a ranking of how interesting these attractions are. 
+
+In order to do this, the traveller needs to input two lines of data into the program to get what they want. 
+
+The first line contains two integers. N is an integer that represents the number of attractions planned by the traveller. K is the other integer that represents the maximum number of attractions the traveller allows themselves to go. 
+
+The second line contains N different attractions representing by their scores. The order of the attractions matters. Each attraction score are seperated by a space. No other space or characters allowed when inputting. 
+
+There are also other restrictions on the value of N and k:
+
+1:1<=K<=N<=10^6
+2:K<=100
+3:N<=10^5
+
+One extra restriction on the N integers (second line input):
+we denote the N integers as a1, a2, a3, ......, aN
+
+1<ai<10^9
+
+Example input:
+line one:5 3
+line two:5 2 1 7 4
+
+The output will be the maximum score you can get from the best arrangement that the program finds. 
